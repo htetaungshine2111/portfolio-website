@@ -34,8 +34,15 @@ function App() {
       </nav>
 
       <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
+        <img
+          src="/profile.jpeg"
+          alt="Htet Aung Shine"
+          className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-indigo-500 shadow-lg"
+        />
         <h1 className="text-6xl md:text-7xl font-bold mb-4">Htet Aung Shine</h1>
-
+        <h2 className="text-2xl md:text-3xl text-indigo-400 font-semibold mt-4">
+          Software Engineer
+        </h2>
         <p className="text-xl text-gray-300 max-w-2xl">
           Software Engineer with 9+ years of experience building enterprise
           applications, REST APIs, financial systems, HR platforms, POS systems,
